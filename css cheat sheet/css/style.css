@@ -1,0 +1,106 @@
+/*
+*{
+	margin:0;
+	padding:0;
+}
+*/
+body{
+	background-color: green;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.6em;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:red;
+}
+.container{
+	width:80%;
+	margin: auto;
+}
+.button{
+	background-color: black;
+	color:grey;
+	padding:10px 15px;
+	border:none;
+}
+.button hover{
+	background: red;
+	color:white;
+}
+.clr{
+	clear: both;
+}
+.box-1{
+	background-color: black;
+	color:white;
+	border:5px red solid;
+
+	padding: 50px;
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	 text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+.box-2{
+	border:3px dotted grey;
+	margin:20px 0;
+	padding:20px;
+}
+.Catergories{
+	border:1px grey solid;
+	padding:10px;
+	border-radius: 15px;
+}
+.Catergories h2{
+	text-align: center; 
+}
+.Catergories ul{
+	padding:0;
+	list-style: none;
+}
+.Catergories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px black
+}
+.my-form{
+	padding: 20px;
+}
+.my-form.form-group{
+	padding-bottom: 15px;
+
+}
+.my-form label{
+	display: block;
+}
+.block{
+	float: left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+}
+#main-block{
+	float:left;
+	width:70%;
+	padding:15px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float:right;
+	width:30%;
+	background-color: black;
+	color:white;
+	padding:15px;
+	box-sizing: border-box;
+}
